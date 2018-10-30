@@ -11,7 +11,6 @@ const Results = props =>
         </span>
         <span className="btn-group pull-right">
           <a href={props.url} 
-          // target="_blank"
           >
             <button className="btn btn-default ">View Article</button>
           </a>

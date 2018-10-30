@@ -4,7 +4,7 @@ import Search from "./Search";
 import Results from "./Results";
 import API from "../utils/api";
 
-class Main extends Component {
+class Start extends Component {
 
   state = {
     topic: "",
@@ -139,13 +139,6 @@ class Main extends Component {
               </div>
             </div>
           </div>
-          <footer>
-            <hr />
-            <p className="pull-right">
-              <i className="fa fa-github" aria-hidden="true"></i>
-              Proudly built using React.js
-            </p>
-          </footer>
         </div>
       </div>
 
